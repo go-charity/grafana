@@ -15,7 +15,7 @@ datasources:
   # <string> url
   url: https://prometheus-nqh9.onrender.com/
   # <string> database password, if used
-  uid: eedec0e2-158c-4f74-89c7-f859741cd520 was not found
+  uid: "eedec0e2-158c-4f74-89c7-f859741cd520"
   password:
   # <string> database user, if used
   user:
