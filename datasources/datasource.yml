@@ -4,7 +4,7 @@ apiVersion: 1
 # list of datasources to insert/update depending
 # whats available in the database
 datasources:
-  # <string, required> name of the datasource. Required
+# <string, required> name of the datasource. Required
 - name: Prometheus
   # <string, required> datasource type. Required
   type: prometheus
@@ -15,6 +15,7 @@ datasources:
   # <string> url
   url: https://prometheus-nqh9.onrender.com/
   # <string> database password, if used
+  uid: eedec0e2-158c-4f74-89c7-f859741cd520 was not found
   password:
   # <string> database user, if used
   user:
@@ -32,9 +33,9 @@ datasources:
   isDefault:
   # <map> fields that will be converted to json and stored in json_data
   jsonData:
-     graphiteVersion: "1.1"
-     tlsAuth: false
-     tlsAuthWithCACert: false
+    graphiteVersion: "1.1"
+    tlsAuth: false
+    tlsAuthWithCACert: false
   # <string> json object of data that will be encrypted.
   secureJsonData:
     tlsCACert: "..."
