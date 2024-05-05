@@ -67,7 +67,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS-LOCAL}"
+        "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
       },
       "fieldConfig": {
         "defaults": {
@@ -118,7 +118,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS-LOCAL}"
+            "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
           },
           "editorMode": "code",
           "expr": "job:nodejs_process_memory_rss_bytes:convert_to_megabytes",
@@ -134,7 +134,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS-LOCAL}"
+        "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
       },
       "description": "",
       "fieldConfig": {
@@ -219,7 +219,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS-LOCAL}"
+            "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
           },
           "editorMode": "code",
           "expr": "nodejs_process_cpu_usage_percentage * 100",
@@ -235,7 +235,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS-LOCAL}"
+        "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
       },
       "description": "",
       "fieldConfig": {
@@ -315,7 +315,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS-LOCAL}"
+            "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
           },
           "editorMode": "code",
           "expr": "job:goa_http_duration_sum:rate1m",
@@ -331,7 +331,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS-LOCAL}"
+        "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
       },
       "fieldConfig": {
         "defaults": {
@@ -413,7 +413,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS-LOCAL}"
+            "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -432,7 +432,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS-LOCAL}"
+        "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
       },
       "fieldConfig": {
         "defaults": {
@@ -511,7 +511,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS-LOCAL}"
+            "uid": "eedec0e2-158c-4f74-89c7-f859741cd520"
           },
           "editorMode": "code",
           "expr": "goa_requests_in_progress{path != \"/swagger-stats/metrics\"}",
