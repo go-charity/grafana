@@ -41,7 +41,7 @@ spec:
     obj: pod
     app: grafana
   ports:
-  - port: 3000
-    targetPort: 3010
+  - port: 3010
+    targetPort: 3000
     protocol: TCP
   type: LoadBalancer
